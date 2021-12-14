@@ -1,0 +1,50 @@
+.error-container{
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error{
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.wrong-url{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error-nav{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width:755px) {
+    .error{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .error h1{
+        font-size: 24px;
+    }
+
+    .wrong-url{
+        font-size: 18px;
+    }
+}

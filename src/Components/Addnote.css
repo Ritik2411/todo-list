@@ -1,0 +1,29 @@
+.addtask-container{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+
+.addtask-textarea{
+    width:95%;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.addtask-textarea:focus{
+    outline: none;
+}
+
+.addtask-btn{
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

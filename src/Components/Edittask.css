@@ -1,0 +1,48 @@
+.edittask-container{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+
+.edittask-title{
+    width: 98%;
+}
+
+.edittask-textarea{
+    width:98%;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.edittask-textarea:focus{
+    outline: none;
+}
+
+.edittask-btn{
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:425px) {
+
+    .edittask-container{
+        padding: 10px;
+    }
+
+    .edittask-title{
+        width: 90%;
+    }
+
+    .edittask-textarea{
+        width: 90%;
+    }
+}

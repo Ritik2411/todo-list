@@ -1,0 +1,77 @@
+.main-register-container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.register-fields{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.name{
+    width: 94%;
+}
+
+.dob{
+    margin-left: 2px;
+    width: 65%;
+}
+
+.iemail{
+    width: 94%;
+}
+
+.ipassword{
+    width: 94%;
+}
+
+.register-submit-btn{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+
+    .main-register-container{
+        margin-top: 100px;
+    }
+
+    .register-container{
+        width: 100%;
+    }
+
+    .dob{
+        width: 55%;
+    }
+}

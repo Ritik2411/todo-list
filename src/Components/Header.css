@@ -1,0 +1,63 @@
+.header-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.header-container{
+    display: flex;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+}
+
+.header-title{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-title p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user-details{
+    margin-right: 10px;
+}
+
+.logged{
+    display: flex;
+    align-items: center;
+}
+
+.login-btn{
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.logout-btn{
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #dc4535;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:570px) {
+    .header-title p{
+        font-size: 14px;
+    }
+
+    .user-details{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,69 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.addnote-home{
+    width:50%;
+    padding:10px;
+}
+
+.editnote-home{
+    margin:10px;
+}
+
+.loader-style{
+    display: block;
+    margin: 10px auto;
+    border-color: #007bff;
+    text-align: center;
+}
+
+.home-tasklist{
+    width:50%;
+    overflow-y:scroll;
+    height:700px;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+
+.search-task{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+
+.for-no-user{
+    text-align:center;
+    margin-top:20px; 
+}
+
+@media screen and (max-width:1024px) {
+   .home-container{
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   } 
+
+   .addnote-home{
+       width: 95%;
+   }
+
+   .editnote-home{
+       margin-top: 30px;
+       width: 95%;
+   }
+
+   .home-tasklist{
+       width: 95%;
+   }
+}
+
+@media screen and (max-width:430px) {
+    .for-no-user{
+        font-size: 15px;
+    }
+}
